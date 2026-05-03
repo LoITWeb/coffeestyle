@@ -1,0 +1,46 @@
+:root {
+	--font-family: "Karla", sans-serif;
+
+	--max-width: 1440px;
+	--padding: 0 20px;
+	--margin: 0 auto;
+
+	--text-color: #000000;
+	--background-color: #FFFFFF;
+}
+
+@font-face {
+	font-family: "Karla";
+	src: url("/public/fonts/Karla-Regular.woff2") format("woff2"),
+		url("/public/fonts/Karla-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.container {
+	max-width: var(--max-width);
+	padding: var(--padding);
+	margin: var(--margin);
+}
+
+body {
+	font-family: var(--font-family);
+	font-weight: 400;
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	flex: 1 1 auto;
+}
