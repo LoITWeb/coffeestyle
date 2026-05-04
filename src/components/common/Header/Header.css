@@ -167,7 +167,7 @@
 	justify-content: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background: var(--text-accent);
+	background: rgba(29, 31, 46);
 	transition: all 0.2s ease-in;
 }
 
