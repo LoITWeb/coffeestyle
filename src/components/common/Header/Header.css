@@ -12,6 +12,10 @@
 	align-items: center;
 }
 
+.link-logo {
+	height: 24px;
+}
+
 .nav-list {
 	display: flex;
 	gap: 30px;
@@ -44,7 +48,13 @@
 	display: flex;
 	align-items: center;
 	gap: 10px;
+	padding-bottom: 6px;
 	border-bottom: 2px solid rgba(162, 95, 75, 0.3);
+}
+
+.basket-img {
+	display: flex;
+	align-items: center;
 }
 
 .cart-link {

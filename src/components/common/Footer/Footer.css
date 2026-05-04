@@ -1,0 +1,80 @@
+.footer {
+	padding: 100px 0 60px;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-style {
+	width: 260px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer-logo-img {
+	margin-bottom: 18px;
+}
+
+.footer-text {
+	font-size: 14px;
+	line-height: 157%;
+	color: var(--text-accent);
+}
+
+.copyright {
+	font-size: 14px;
+	line-height: 157%;
+	color: rgba(29, 31, 46, 0.3);
+}
+
+.footer-menu,
+.footer-follow {
+	width: 88px;
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+}
+
+.footer-title {
+	font-size: 12px;
+	line-height: 150%;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.footer-link {
+	position: relative;
+	font-size: 13px;
+	line-height: 169%;
+	color: var(--text-accent);
+	transition: all 190ms ease-in;
+}
+
+.footer-link:hover {
+	color: var(--text-color);
+}
+
+.footer-link:active {
+	top: 2px;
+}
+
+.footer-contact {
+	width: 188px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer-title.contact {
+	margin-bottom: 20px;
+}
+
+.footer-mail {
+	font-size: 23px;
+	line-height: 157%;
+	color: var(--text-color);
+}
