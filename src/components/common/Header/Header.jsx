@@ -25,13 +25,19 @@ const Header = () => {
 								<Link className="nav-link" to="/">Home</Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" to="/Page_1">Page-1</Link>
+								<Link className="nav-link" to="/Products">Our Products</Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" to="/Page_2">Page-2</Link>
+								<Link className="nav-link" to="/Blog">Blog</Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" to="/Page_3">Page-3</Link>
+								<Link className="nav-link" to="/About">About</Link>
+							</li>
+							<li className="nav-item">
+								<Link className="nav-link" to="/Contact">Contact</Link>
+							</li>
+							<li className="nav-item">
+								<Link className="nav-link" to="/Styleguide">Styleguide</Link>
 							</li>
 						</ul>
 
@@ -48,9 +54,11 @@ const Header = () => {
 			<div className={`mobile-nav ${isOpen ? 'mobile-nav--open' : ''}`}>
 				<ul className="mobile-nav__list">
 					<li><Link className="mobile-nav-link" to="/" onClick={handleLinkClick}>Home</Link></li>
-					<li><Link className="mobile-nav-link" to="/Page_1" onClick={handleLinkClick}>Page-1</Link></li>
-					<li><Link className="mobile-nav-link" to="/Page_2" onClick={handleLinkClick}>Page-2</Link></li>
-					<li><Link className="mobile-nav-link" to="/Page_3" onClick={handleLinkClick}>Page-3</Link></li>
+					<li><Link className="mobile-nav-link" to="/Products" onClick={handleLinkClick}>Our Products</Link></li>
+					<li><Link className="mobile-nav-link" to="/Blog" onClick={handleLinkClick}>Blog</Link></li>
+					<li><Link className="mobile-nav-link" to="/About" onClick={handleLinkClick}>About</Link></li>
+					<li><Link className="mobile-nav-link" to="/Contact" onClick={handleLinkClick}>Contact</Link></li>
+					<li><Link className="mobile-nav-link" to="/Styleguide" onClick={handleLinkClick}>Styleguide</Link></li>
 				</ul>
 			</div>
 		</header>

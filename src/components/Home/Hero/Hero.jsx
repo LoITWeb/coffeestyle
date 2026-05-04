@@ -6,8 +6,7 @@ const Hero = () => {
   return (
     <section className="hero">                                                                     
       <div className="container">
-				<h1>Hello Hero!</h1>
-				
+				<h1>Section Hero</h1>
 			</div>
     </section>
   );

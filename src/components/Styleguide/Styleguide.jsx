@@ -1,13 +1,13 @@
 import React from "react";
 
-const Page_3 = () => {
+const Styleguide = () => {
 	return (
 		<div>
 			<div className="container">
-				<h1>Hello Page-3</h1>
+				<h1>Styleguide</h1>
 			</div>
 		</div>
 	);
 };
 
-export default Page_3;  
+export default Styleguide;  

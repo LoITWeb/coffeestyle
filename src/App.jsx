@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { Header, Footer } from "./components/common";
-import { Home, Page_1, Page_2, Page_3 } from "./components";
+import { Home, Products, Blog, About, Contact, Styleguide } from "./components";
 
 const App = () => {
 	return (
@@ -11,9 +11,11 @@ const App = () => {
 			<main className="main">
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/Page_1" element={<Page_1 />} />
-					<Route path="/Page_2" element={<Page_2 />} />
-					<Route path="/Page_3" element={<Page_3 />} />
+					<Route path="/Products" element={<Products />} />
+					<Route path="/Blog" element={<Blog />} />
+					<Route path="/About" element={<About />} />
+					<Route path="/Contact" element={<Contact />} />
+					<Route path="/Styleguide" element={<Styleguide />} />
 				</Routes>
 			</main>
 
