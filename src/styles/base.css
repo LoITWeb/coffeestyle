@@ -1,11 +1,13 @@
 :root {
 	--font-family: "Karla", sans-serif;
 
-	--max-width: 1440px;
+	--max-width: 980px;
 	--padding: 0 20px;
 	--margin: 0 auto;
 
-	--text-color: #000000;
+	--text-color: #1D1F2E;
+	--text-white: #FFFFFF;
+	--text-accent: rgba(29, 31, 46, 0.7);
 	--background-color: #FFFFFF;
 }
 
@@ -30,7 +32,9 @@ html {
 
 body {
 	font-family: var(--font-family);
+	font-size: 16px;
 	font-weight: 400;
+	line-height: 175%;
 	color: var(--text-color);
 	background-color: var(--background-color);
 }

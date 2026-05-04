@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import useMobileNav from "../../../hooks/useMobileNav";
 import logo from "./images/logo.png";
+import basket from "./images/basket.png";
 import "./Header.css";
 import "./HeaderResponsive.css";
 
@@ -48,6 +49,13 @@ const Header = () => {
 						</div>
 
 					</nav>
+					<div className="nav-basket">
+						<Link className="basket-link" to="#!">
+							<img src={basket} alt="Basket" className="basket-img" />
+						</Link>
+						<Link className="cart-link" to="#!">CART</Link>
+						<p className="basket-num">0</p>
+					</div>
 				</div>
 			</div>
 
