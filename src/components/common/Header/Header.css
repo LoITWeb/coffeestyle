@@ -85,7 +85,7 @@
 	--line-height: 2px;
 	--spacing: 8px;
 
-	--color: var(--text-color);
+	--color: #000000;
 	--radius: 4px;
 
 	height: calc(var(--line-height) * 3 + var(--spacing) * 2);
