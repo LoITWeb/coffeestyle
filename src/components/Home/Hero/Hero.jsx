@@ -1,15 +1,23 @@
-import React from "react";                                                                         
-import "./Hero.css";                                                     
-import "./HeroResponsive.css";                                            
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Hero.css";
+import "./HeroResponsive.css";
 
 const Hero = () => {
-  return (
-    <section className="hero">                                                                     
-      <div className="container">
-				<h1>Section Hero</h1>
+	return (
+		<section className="hero">
+			<div className="big-container">
+				<div className="hero-content">
+					<p className="hero-top-text">Best place to buy design</p>
+					<h1 className="hero-title">Coffee Mugs</h1>
+					<p className="hero-sub-text">
+						The most versatile furniture system ever created. Designed to fit your life, made to move and grow.
+					</p>
+					<Link className="hero-btn" to="/Products">Explore Our Products</Link>
+				</div>
 			</div>
-    </section>
-  );
+		</section>
+	);
 };
 
 export default Hero;  

@@ -2,6 +2,7 @@
 	--font-family: "Karla", sans-serif;
 
 	--max-width: 980px;
+	--big-max-width: 1420px;
 	--padding: 0 20px;
 	--margin: 0 auto;
 
@@ -26,6 +27,12 @@ html {
 
 .container {
 	max-width: var(--max-width);
+	padding: var(--padding);
+	margin: var(--margin);
+}
+
+.big-container {
+	max-width: var(--big-max-width);
 	padding: var(--padding);
 	margin: var(--margin);
 }
