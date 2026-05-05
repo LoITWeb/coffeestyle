@@ -1,0 +1,40 @@
+.top {
+	padding-top: 100px;
+}
+
+.top-content {
+	max-width: 650px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.top-title {
+	font-size: 28px;
+	line-height: 143%;
+	margin-bottom: 10px;
+}
+
+.top-text {
+	color: var(--text-accent);
+	margin-bottom: 20px;
+}
+
+.top-link {
+	position: relative;
+	font-size: 15px;
+	line-height: 187%;
+	padding-bottom: 6px;
+	border-bottom: 2px solid rgba(162, 95, 75, 0.2);
+	color: #a25f4b;
+	transition: all 190ms ease-in;
+}
+
+.top-link:hover {
+	font-weight: 500;
+	color: var(--text-color);
+	border-bottom: 2px solid var(--text-accent);
+}
+
+.top-link:active {
+	top: 2px;
+}

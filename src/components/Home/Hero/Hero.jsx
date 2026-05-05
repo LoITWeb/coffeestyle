@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Hero.css";
 import "./HeroResponsive.css";
 
@@ -13,7 +12,7 @@ const Hero = () => {
 					<p className="hero-sub-text">
 						The most versatile furniture system ever created. Designed to fit your life, made to move and grow.
 					</p>
-					<Link className="hero-btn" to="/Products">Explore Our Products</Link>
+					<a href="#products" className="hero-link">Explore Our Products</a>
 				</div>
 			</div>
 		</section>
