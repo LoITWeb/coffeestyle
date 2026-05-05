@@ -55,3 +55,28 @@ body {
 .main {
 	flex: 1 1 auto;
 }
+
+section {
+	padding-top: 80px;
+}
+
+.section-block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 80px;
+}
+
+.section-line {
+	width: 30px;
+	height: 1px;
+	background: #ececed;
+}
+
+.section-title {
+	font-size: 12px;
+	line-height: 150%;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+}

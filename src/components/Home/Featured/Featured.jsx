@@ -10,10 +10,10 @@ const Featured = () => {
 		<section className="featured">
 			<div className="container">
 				<div className="featured-content">
-					<div className="featured-title-block">
-						<div className="featured-line"></div>
-						<p className="featured-title">Featured Mugs</p>
-						<div className="featured-line"></div>
+					<div className="section-block">
+						<div className="section-line"></div>
+						<p className="section-title">Featured Mugs</p>
+						<div className="section-line"></div>
 					</div>
 					<div className="featured-block">
 						<div className="featured-card">
