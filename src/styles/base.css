@@ -9,6 +9,7 @@
 	--text-color: #1D1F2E;
 	--text-white: #FFFFFF;
 	--text-accent: rgba(29, 31, 46, 0.7);
+	--accent: #A25F4B;
 	--background-color: #FFFFFF;
 }
 
@@ -56,10 +57,12 @@ body {
 	flex: 1 1 auto;
 }
 
+/* Section */
 section {
 	padding-top: 80px;
 }
 
+/* Title */
 .section-block {
 	display: flex;
 	align-items: center;
@@ -79,4 +82,60 @@ section {
 	line-height: 150%;
 	letter-spacing: 0.17em;
 	text-transform: uppercase;
+}
+
+/* Card */
+.card-img {
+	margin-bottom: 30px;
+}
+
+.card-link {
+	display: block;
+	position: relative;
+	display: inline-block;
+	color: var(--text-color);
+	transition: all 190ms ease-in;
+}
+
+.card-link:hover,
+.card-link:hover .card-text,
+.card-link:hover .card-price-red,
+.card-link:hover .card-price,
+.card-link:hover .card-price-line {
+	color: var(--accent);
+}
+
+.card-link:active {
+	top: 2px;
+}
+
+.card-text {
+	font-size: 20px;
+	line-height: 150%;
+	transition: all 190ms ease-in;
+}
+
+.card-price-block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.card-price-red {
+	font-size: 19px;
+	line-height: 168%;
+	color: var(--accent);
+	transition: all 190ms ease-in;
+}
+
+.card-price {
+	color: var(--text-accent);
+	transition: all 190ms ease-in;
+}
+
+.card-price-line {
+	text-decoration: line-through;
+	color: var(--text-accent);
+	transition: all 190ms ease-in;
 }
