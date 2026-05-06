@@ -1,0 +1,26 @@
+.stories-content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}
+
+.stories-img {
+	margin-bottom: 30px;
+}
+
+.stories-top-text {
+	font-size: 20px;
+	line-height: 160%;
+	margin-bottom: 20px;
+}
+
+.stories-sub-text {
+	margin-bottom: 20px;
+}
+
+.stories-data {
+	font-size: 12px;
+	line-height: 150%;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+}
