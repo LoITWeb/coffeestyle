@@ -1,0 +1,10 @@
+.sub {
+	width: 100%;
+	min-height: 340px;
+	background-image:
+		image-set(url("./images/sub-banner.webp") 1x,
+			url("./images/sub-banner@2x.webp") 2x);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}

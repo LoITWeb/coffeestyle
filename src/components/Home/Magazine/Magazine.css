@@ -1,3 +1,7 @@
+.magazine {
+	padding-bottom: 80px;
+}
+
 .magazine-block {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
