@@ -1,11 +1,10 @@
 import React from "react";
+import { ContactHero } from "../Contact";
 
 const Contact = () => {
 	return (
 		<div>
-			<div className="container">
-				<h1>Contact</h1>
-			</div>
+			<ContactHero />
 		</div>
 	);
 };

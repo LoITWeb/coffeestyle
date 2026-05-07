@@ -1,0 +1,1 @@
+export { default as StyleguideHero } from "./StyleguideHero/StyleguideHero";   

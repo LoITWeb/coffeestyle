@@ -1,11 +1,10 @@
 import React from "react";
+import { StyleguideHero } from "../Styleguide";
 
 const Styleguide = () => {
 	return (
 		<div>
-			<div className="container">
-				<h1>Styleguide</h1>
-			</div>
+			<StyleguideHero />
 		</div>
 	);
 };
