@@ -24,8 +24,8 @@ const Products = () => {
 					</div>
 					<div className="products-block">
 						<div className="card">
-							<img src={product_1} alt="Photo" className="card-img" />
 							<Link className="card-link" to="#!">
+								<img src={product_1} alt="Photo" className="card-img" />
 								<p className="card-text">Red Love Cup</p>
 								<div className="card-price-block">
 									<p className="card-price-red">$25.00</p>
@@ -35,8 +35,8 @@ const Products = () => {
 							</Link>
 						</div>
 						<div className="card">
-							<img src={product_2} alt="Photo" className="card-img" />
 							<Link className="card-link" to="#!">
+								<img src={product_2} alt="Photo" className="card-img" />
 								<p className="card-text">Black Tea Cup</p>
 								<div className="card-price-block">
 									<p className="card-price-red">$15.00</p>
@@ -46,8 +46,8 @@ const Products = () => {
 							</Link>
 						</div>
 						<div className="card">
-							<img src={product_3} alt="Photo" className="card-img" />
 							<Link className="card-link" to="#!">
+								<img src={product_3} alt="Photo" className="card-img" />
 								<p className="card-text">B&W Essentials Mug</p>
 								<div className="card-price-block">
 									<p className="card-price-red"></p>
@@ -57,8 +57,8 @@ const Products = () => {
 							</Link>
 						</div>
 						<div className="card">
-							<img src={product_4} alt="Photo" className="card-img" />
 							<Link className="card-link" to="#!">
+								<img src={product_4} alt="Photo" className="card-img" />
 								<p className="card-text">Winter Style Mug</p>
 								<div className="card-price-block">
 									<p className="card-price-red"></p>
@@ -68,8 +68,8 @@ const Products = () => {
 							</Link>
 						</div>
 						<div className="card">
-							<img src={product_5} alt="Photo" className="card-img" />
 							<Link className="card-link" to="#!">
+								<img src={product_5} alt="Photo" className="card-img" />
 								<p className="card-text">Ceramic Tea</p>
 								<div className="card-price-block">
 									<p className="card-price-red"></p>
@@ -79,8 +79,8 @@ const Products = () => {
 							</Link>
 						</div>
 						<div className="card">
-							<img src={product_6} alt="Photo" className="card-img" />
 							<Link className="card-link" to="#!">
+								<img src={product_6} alt="Photo" className="card-img" />
 								<p className="card-text">No Handle Bar Cup</p>
 								<div className="card-price-block">
 									<p className="card-price-red"></p>
@@ -90,8 +90,8 @@ const Products = () => {
 							</Link>
 						</div>
 						<div className="card">
-							<img src={product_7} alt="Photo" className="card-img" />
 							<Link className="card-link" to="#!">
+								<img src={product_7} alt="Photo" className="card-img" />
 								<p className="card-text">Espresso Cup by Mugs.co</p>
 								<div className="card-price-block">
 									<p className="card-price-red"></p>
@@ -101,8 +101,8 @@ const Products = () => {
 							</Link>
 						</div>
 						<div className="card">
-							<img src={product_8} alt="Photo" className="card-img" />
 							<Link className="card-link" to="#!">
+								<img src={product_8} alt="Photo" className="card-img" />
 								<p className="card-text">Pink Premium Ceramic</p>
 								<div className="card-price-block">
 									<p className="card-price-red"></p>
@@ -112,8 +112,8 @@ const Products = () => {
 							</Link>
 						</div>
 						<div className="card">
-							<img src={product_9} alt="Photo" className="card-img" />
 							<Link className="card-link" to="#!">
+								<img src={product_9} alt="Photo" className="card-img" />
 								<p className="card-text">Summer Designer Cup</p>
 								<div className="card-price-block">
 									<p className="card-price-red"></p>

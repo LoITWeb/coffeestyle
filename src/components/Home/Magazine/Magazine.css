@@ -61,6 +61,9 @@
 }
 
 .magazine-btn:hover {
-	color: var(--text-color);
 	background: var(--accent);
+}
+
+.magazine-btn:active {
+	top: 2px;
 }

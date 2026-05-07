@@ -17,8 +17,8 @@ const Featured = () => {
 					</div>
 					<div className="featured-block">
 						<div className="card">
-							<img src={featured_1} alt="Photo" className="card-img" />
 							<Link className="card-link" to="#!">
+							<img src={featured_1} alt="Photo" className="card-img" />
 								<p className="card-text">Pink Premium Ceramic</p>
 								<div className="card-price-block">
 									<p className="card-price-red"></p>
@@ -28,8 +28,8 @@ const Featured = () => {
 							</Link>
 						</div>
 						<div className="card">
-							<img src={featured_2} alt="Photo" className="card-img" />
 							<Link className="card-link" to="#!">
+							<img src={featured_2} alt="Photo" className="card-img" />
 								<p className="card-text">Golden Designers Mug</p>
 								<div className="card-price-block">
 									<p className="card-price-red">$50.00</p>
