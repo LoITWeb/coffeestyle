@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+	.footer-content {
+		display: grid;
+		grid-template-columns: 260px 190px;
+		gap: 60px;
+		/* justify-items: center; */
+		/* text-align: center; */
+	}
+
+	.footer-menu {
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	.footer-follow {
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	.footer-style {
+		grid-column: 1;
+		grid-row: 2;
+	}
+
+	.footer-contact {
+		grid-column: 2;
+		grid-row: 2;
+	}
+}

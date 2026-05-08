@@ -68,6 +68,13 @@ const Header = () => {
 					<li><Link className="mobile-nav-link" to="/Contact" onClick={handleLinkClick}>Contact</Link></li>
 					<li><Link className="mobile-nav-link" to="/Styleguide" onClick={handleLinkClick}>Styleguide</Link></li>
 				</ul>
+				<div className="mobile-nav-basket">
+					<Link className="mobile-basket-link" to="#!">
+						<img src={basket} alt="Basket" className="basket-img" />
+					</Link>
+					<Link className="mobile-cart-link" to="#!">CART</Link>
+					<p className="mobile-basket-num">12</p>
+				</div>
 			</div>
 		</header>
 	);

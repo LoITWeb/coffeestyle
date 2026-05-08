@@ -19,10 +19,6 @@
 .nav-list {
 	display: flex;
 	gap: 30px;
-
-	@media (max-width: 1024px) {
-		display: none;
-	}
 }
 
 .nav-link {
@@ -73,27 +69,23 @@
 	border-radius: 9px;
 	width: 20px;
 	height: 18px;
-	background: #1d1f2e;
+	background: var(--text-color);
 }
 
 /* Burger menu */
 .nav__icon {
 	display: none;
-
-	@media (max-width: 1024px) {
-		display: block;
-	}
 }
 
 /* Nav Icon */
 .mobile-nav-btn {
 	--time: 0.1s;
 
-	--width: 30px;
-	--height: 30px;
+	--width: 24px;
+	--height: 24px;
 
 	--line-height: 2px;
-	--spacing: 8px;
+	--spacing: 6px;
 
 	--color: #000000;
 	--radius: 4px;
@@ -185,6 +177,14 @@
 	top: 0;
 }
 
+.mobile-nav__list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 20px;
+	font-size: 28px;
+}
+
 .mobile-nav-link {
 	position: relative;
 	color: var(--text-color);
@@ -195,16 +195,30 @@
 	color: var(--text-white);
 }
 
-.mobile-nav__list {
+.mobile-nav-basket {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	row-gap: 20px;
-	font-size: 28px;
+	gap: 20px;
+	padding-top: 36px;
+	padding-bottom: 6px;
+	border-bottom: 2px solid var(--text-color);
 }
 
-.mobile-shop-list {
-	display: flex;
-	gap: 30px;
-	padding-top: 50px;
+.mobile-cart-link {
+	font-size: 12px;
+	line-height: 150%;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+	color: var(--text-color);
+}
+
+.mobile-basket-num {
+	font-size: 11px;
+	line-height: 164%;
+	text-align: center;
+	color: var(--text-white);
+	border-radius: 9px;
+	width: 20px;
+	height: 18px;
+	background: var(--text-color);
 }
