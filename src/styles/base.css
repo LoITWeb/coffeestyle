@@ -62,6 +62,12 @@ section {
 	padding-top: 80px;
 }
 
+@media (max-width: 568px) {
+	section {
+		padding-top: 40px;
+	}
+}
+
 /* Title */
 .section-block {
 	display: flex;

@@ -7,11 +7,11 @@ const Home = () => {
 			<Hero />
 			<Top />
 			<Featured />
-			<Products />
-			<Magazine />
-			<Sub />
-			<Stories />
-			<Subscribe />
+			{/* <Products /> */}
+			{/* <Magazine /> */}
+			{/* <Sub /> */}
+			{/* <Stories /> */}
+			{/* <Subscribe /> */}
 		</div>
 	);
 };

@@ -27,10 +27,14 @@
 }
 
 @media (max-width: 568px) {
+	.footer {
+		padding: 40px 0 30px;
+	}
+
 	.footer-content {
 		display: grid;
 		grid-template-columns: 100%;
-		gap: 60px;
+		gap: 30px;
 		text-align: center;
 		justify-items: center;
 	}
@@ -38,11 +42,17 @@
 	.footer-menu {
 		grid-column: 1;
 		grid-row: 1;
+		gap: 4px;
 	}
 
 	.footer-follow {
 		grid-column: 1;
 		grid-row: 2;
+		gap: 4px;
+	}
+
+	.footer-title {
+		margin-bottom: 4px;
 	}
 
 	.footer-style {
@@ -50,8 +60,16 @@
 		grid-row: 3;
 	}
 
+	.footer-logo-img {
+		margin-bottom: 4px;
+	}
+
 	.footer-contact {
 		grid-column: 1;
 		grid-row: 4;
+	}
+
+	.footer-title.contact {
+		margin-bottom: 4px;
 	}
 }
