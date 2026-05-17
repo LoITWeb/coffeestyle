@@ -8,7 +8,7 @@ const Home = () => {
 			<Top />
 			<Featured />
 			<Products />
-			{/* <Magazine /> */}
+			<Magazine />
 			{/* <Sub /> */}
 			{/* <Stories /> */}
 			{/* <Subscribe /> */}
