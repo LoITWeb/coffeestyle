@@ -62,12 +62,6 @@ section {
 	padding-top: 80px;
 }
 
-@media (max-width: 568px) {
-	section {
-		padding-top: 40px;
-	}
-}
-
 /* Title */
 .section-block {
 	display: flex;
@@ -144,4 +138,19 @@ section {
 	text-decoration: line-through;
 	color: var(--text-accent);
 	transition: all 190ms ease-in;
+}
+
+/* Media */
+@media (max-width: 568px) {
+	section {
+		padding-top: 40px;
+	}
+
+	.section-block {
+		margin-bottom: 40px;
+	}
+
+	.card-img {
+		margin-bottom: 10px;
+	}
 }
