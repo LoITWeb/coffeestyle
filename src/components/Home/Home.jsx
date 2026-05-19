@@ -9,8 +9,8 @@ const Home = () => {
 			<Featured />
 			<Products />
 			<Magazine />
-			{/* <Sub /> */}
-			{/* <Stories /> */}
+			<Sub />
+			<Stories />
 			{/* <Subscribe /> */}
 		</div>
 	);
