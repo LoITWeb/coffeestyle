@@ -11,7 +11,7 @@ const Home = () => {
 			<Magazine />
 			<Sub />
 			<Stories />
-			{/* <Subscribe /> */}
+			<Subscribe />
 		</div>
 	);
 };

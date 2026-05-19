@@ -4,17 +4,17 @@
 	background: var(--text-color);
 }
 
-.subscribe-section-block {
+.section-block.subscribe {
 	margin-bottom: 20px;
 }
 
-.subscribe-section-line {
+.section-line.subscribe {
 	width: 30px;
 	height: 1px;
 	background: rgba(210, 210, 213, 0.1);
 }
 
-.subscribe-section-title {
+.section-title.subscribe {
 	font-size: 12px;
 	line-height: 150%;
 	letter-spacing: 0.17em;

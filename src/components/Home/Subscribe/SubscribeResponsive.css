@@ -1,0 +1,10 @@
+@media (max-width: 568px) {
+	.subscribe-form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.subscribe-btn {
+		width: 100%;
+	}
+}

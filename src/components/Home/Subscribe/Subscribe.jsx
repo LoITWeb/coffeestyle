@@ -7,10 +7,10 @@ const Subscribe = () => {
 	return (
 		<section className="subscribe">
 			<div className="subscribe-content">
-				<div className="subscribe-section-block">
-					<div className="subscribe-section-line"></div>
-					<p className="subscribe-section-title">Sign up and get free coffee bags</p>
-					<div className="subscribe-section-line"></div>
+				<div className="section-block subscribe">
+					<div className="section-line subscribe"></div>
+					<p className="section-title subscribe">Sign up and get free coffee bags</p>
+					<div className="section-line subscribe"></div>
 				</div>
 				<h2 className="subscribe-title">Coffee Updates</h2>
 				<div className="subscribe-form">
