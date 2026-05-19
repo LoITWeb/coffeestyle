@@ -18,12 +18,14 @@
 }
 
 .magazine-img-1 {
+	max-width: 280px;
 	grid-column: 1 / span 1;
 	grid-row: 1 / span 2;
 }
 
 .magazine-img-2,
 .magazine-img-3 {
+	max-width: 160px;
 	height: 100%;
 }
 
